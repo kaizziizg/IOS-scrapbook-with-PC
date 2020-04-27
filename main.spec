@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\Kaizz\\Desktop\\Code\\Python\\Copy&Paste'],
+             pathex=['C:\\Users\\Kaizz\\Documents\\GitHub\\IOS-scrapbook-with-PC'],
              binaries=[],
              datas=[],
              hiddenimports=[],

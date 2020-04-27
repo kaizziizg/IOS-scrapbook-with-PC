@@ -12,8 +12,9 @@ def get_host_ip():
     finally:
         s.close()
     return ip
+print("ip: ",get_host_ip())
+print("請將IP_2更改為: ",get_host_ip()[8:])
 
-print("請連接此ip: ",get_host_ip())
 app = Flask(__name__)  # __name__ 代表目前執行的模組
 
 
@@ -41,6 +42,5 @@ def IOS2PC():
 
 
 if __name__ == "__main__":  
-    app.debug = True
     app.run(host=get_host_ip(), port=8080) #啟動伺服器
 
